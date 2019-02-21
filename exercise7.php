@@ -15,7 +15,7 @@ print_r($arr);
 echo "<br>";
 $fp = fopen('test.txt'); 
   
-// writing on a file named gfg.txt 
+// writing on a file named test.txt 
 fwrite($fp, 'A computer science portal for geeks!'); 
 fclose($fp); 
   
